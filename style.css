@@ -89,6 +89,7 @@ header button {
     height: 300px;
     width: 400px;
     margin-top: 5px;
+    object-fit: cover;
 }
 
 footer {
