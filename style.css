@@ -8,14 +8,16 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
+    text-align: center;
 }
+
+/* Barre de Navigation */
 
 nav {
     display: flex;
     flex-wrap:wrap;
      justify-content: center;
      align-items: center;
-     border-bottom: 5px solid black;
 }
 nav h1 {
     color: grey;
@@ -33,6 +35,9 @@ nav .onglets a {
     border-bottom: 1px solid black;
     padding-bottom: 5px;
 }
+
+/* Accueil */
+
 header{
     display: flex;
     flex-direction: column;
@@ -40,17 +45,20 @@ header{
     background: url('images/Header.jpg');
     background-size: cover;
     color: white;
-    padding: 40px;
-}
-header h1 {
-    font-family: 'Playfair Display', sans-serif;
-    font-size: 50px;
+    padding: 17rem;
 }
 header h4 {
     margin-top: -20px;
-    font-size: 20px;
+    font-size: 40px;
     text-align: center;
-    border-bottom: 1px solid white;
+    border: 3px dashed white;
+    padding: 1em;
+    margin: 0;
+    font-family: 'Playfair Display', sans-serif
+}
+header p {
+    margin: 1rem;
+    font-size: 30px;
 }
 header button {
     padding: 10px 20px;
@@ -64,6 +72,16 @@ header button {
     cursor: pointer;
 }
 
+/* A propos */
+
+
+/* Mes Expériences */
+
+/* Mes Compétences */
+
+
+
+/* Portefolio */
 .main {
     margin-top: 40px;
     display: flex;
@@ -92,6 +110,8 @@ header button {
     object-fit: cover;
 }
 
+/* Footer */
+
 footer {
     margin-top: 40px;
     border-top: 5px solid black;
@@ -117,6 +137,9 @@ footer .services .service {
 footer .services .service p {
     max-width: 300px;
 }
+
+/* Conatct */
+
 footer #contact {
     text-align: center;
     color: grey;
